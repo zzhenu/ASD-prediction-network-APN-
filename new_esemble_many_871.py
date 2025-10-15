@@ -26,7 +26,7 @@ import pandas as pd
 from docopt import docopt
 from new_vae_ae_many_nn import nn
 from utils import (load_phenotypes, format_config, hdf5_handler,
-                   reset, to_softmax, load_ae_encoder, load_fold,calculate_CDDS_score,load_vae_encoder,calculate_DSDC_score)
+                   reset, to_softmax, load_ae_encoder, load_fold,calculate_CDDS_score,load_vae_encoder)
 from sklearn.metrics import (confusion_matrix, accuracy_score, 
                             f1_score, roc_auc_score, precision_score, recall_score)
 import tensorflow.compat.v1 as tf

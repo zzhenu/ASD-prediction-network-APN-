@@ -31,7 +31,7 @@ import tensorflow.compat.v1 as tf
 from docopt import docopt
 from utils import (
     load_phenotypes, format_config, hdf5_handler, load_fold,
-    reset, to_softmax, load_ae_encoder, calculate_CDDS_score, load_vae_encoder,calculate_DSDC_score
+    reset, to_softmax, load_ae_encoder, calculate_CDDS_score, load_vae_encoder
 )
 from model import ae, vae, nn
 from sklearn.feature_selection import SelectKBest, f_classif
