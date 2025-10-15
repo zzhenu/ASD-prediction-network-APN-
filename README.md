@@ -13,7 +13,6 @@ We use the [ABIDE I dataset](http://fcon_1000.projects.nitrc.org/indi/abide/). W
 Use the command below:
 
 ```bash
-#
 python download_abide.py
 ```
 2. Display the data distribution
