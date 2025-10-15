@@ -24,7 +24,7 @@ python ABIDE_analysis.py
 ```bash
 python new_prepare_data.py --folds=10 --whole cc400 aal dosenbach160
 ```
-4.Using VAEA to perform Multi-atlas Deep Feature Representation, and using multilayer perceptron (MLP) and ensemble learning to classify the ASD and TC.
+4. Using VAEA to perform Multi-atlas Deep Feature Representation, and using multilayer perceptron (MLP) and ensemble learning to classify the ASD and TC.
 ```bash
 python new_vae_ae_many_nn.py --whole cc400 aal dosenbach160
 ```
